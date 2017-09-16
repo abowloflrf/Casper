@@ -39,8 +39,8 @@ into the {body} of the default.hbs template --}}
             {{!-- Email subscribe form at the bottom of the page --}}
             {{#if @labs.subscribers}}
             <section class="subscribe-form">
-                <h3 class="subscribe-form-title">Subscribe to {{@blog.title}}</h3>
-                <p>Get the latest posts delivered right to your inbox</p>
+                <h3 class="subscribe-form-title">订阅 {{@blog.title}}</h3>
+                <p>让最新文章直接发送到您的邮箱！</p>
                 {{subscribe_form placeholder="youremail@example.com"}}
             </section>
             {{/if}}
@@ -58,12 +58,12 @@ into the {body} of the default.hbs template --}}
                         {{#if bio}}
                             <p>{{bio}}</p>
                         {{else}}
-                            <p>Read <a href="{{url}}">more posts</a> by this author.</p>
+                            <p>查看作者 <a href="{{url}}"> 更多文章</a></p>
                         {{/if}}
                     </section>
                 </section>
                 <div class="post-full-footer-right">
-                    <a class="author-card-button" href="{{url}}">Read More</a>
+                    <a class="author-card-button" href="{{url}}">更多</a>
                 </div>
 
                 {{/author}}
@@ -127,7 +127,7 @@ into the {body} of the default.hbs template --}}
                         </ul>
                     </div>
                     <footer class="read-next-card-footer">
-                        <a href="{{#../primary_tag}}{{url}}{{/../primary_tag}}">{{plural meta.pagination.total empty='No posts' singular='% post' plural='See all % posts'}} →</a>
+                        <a href="{{#../primary_tag}}{{url}}{{/../primary_tag}}">{{plural meta.pagination.total empty='没有文章' singular='% 篇文章' plural='查看共 % 篇文章'}} →</a>
                     </footer>
                 </article>
                 {{/if}}

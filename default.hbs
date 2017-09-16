@@ -13,7 +13,7 @@
 
     {{!-- Styles'n'Scripts --}}
     <link rel="stylesheet" type="text/css" href="{{asset "built/screen.css"}}" />
-
+    <link href="https://cdn.bootcss.com/highlight.js/9.12.0/styles/atom-one-dark.min.css" rel="stylesheet">
     {{!-- This tag outputes SEO meta+structured data and other important settings --}}
     {{ghost_head}}
 
@@ -30,7 +30,7 @@
             <div class="site-footer-content inner">
                 <section class="copyright"><a href="{{@blog.url}}">{{@blog.title}}</a> &copy; {{date format="YYYY"}}</section>
                 <nav class="site-footer-nav">
-                    <a href="{{@blog.url}}">Latest Posts</a>
+                    <a href="{{@blog.url}}">最新文章</a>
                     {{#if @blog.facebook}}<a href="{{facebook_url @blog.facebook}}" target="_blank">Facebook</a>{{/if}}
                     {{#if @blog.twitter}}<a href="{{twitter_url @blog.twitter}}" target="_blank">Twitter</a>{{/if}}
                     <a href="https://ghost.org" target="_blank">Ghost</a>
@@ -48,8 +48,8 @@
             {{#if @blog.logo}}
                 <img class="subscribe-overlay-logo" src="{{@blog.logo}}" alt="{{@blog.title}}" />
             {{/if}}
-            <h1 class="subscribe-overlay-title">Subscribe to {{@blog.title}}</h1>
-            <p class="subscribe-overlay-description">Stay up to date! Get all the latest &amp; greatest posts delivered straight to your inbox</p>
+            <h1 class="subscribe-overlay-title">订阅 {{@blog.title}}</h1>
+            <p class="subscribe-overlay-description">保持最新! 让最新的文章直接发送到你的邮箱！</p>
             {{subscribe_form placeholder="youremail@example.com"}}
         </div>
     </div>
@@ -75,6 +75,7 @@
 
     {{!-- Ghost outputs important scripts and data with this tag - it should always be the very last thing before the closing body tag --}}
     {{ghost_foot}}
-
+    <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
 </body>
 </html>
