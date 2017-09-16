@@ -1,9 +1,9 @@
 # Casper-zh
 本主题是中文本地化版的Ghost默认主题Casper，其中加上了少许我的个人爱好稍作修改，有建议请提issue
 
-![screenshot-desktop](assets\screenshot-desktop.jpg)
+![screenshot-desktop](https://raw.githubusercontent.com/abowloflrf/Casper-zh/master/assets/screenshot-desktop.jpg)
 
-![screenshot-mobile](assets\screenshot-mobile.jpg)
+![screenshot-mobile](https://raw.githubusercontent.com/abowloflrf/Casper-zh/master/assets/screenshot-mobile.jpg)
 
 ----
 
