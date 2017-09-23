@@ -1,6 +1,8 @@
 # Casper-zh
 本主题是中文本地化版的Ghost默认主题Casper，其中加上了少许我的个人爱好稍作修改，有建议请提issue
 
+加入手动载入Disqus功能，若要使用请在Disqus申请后将post.hbs中的Disqus部分注释去掉并将`s.src = 'https://xxxx.disqus.com/embed.js'`修改为自己的地址
+
 ![screenshot-desktop](https://raw.githubusercontent.com/abowloflrf/Casper-zh/master/assets/screenshot-desktop.jpg)
 
 ![screenshot-mobile](https://raw.githubusercontent.com/abowloflrf/Casper-zh/master/assets/screenshot-mobile.jpg)
