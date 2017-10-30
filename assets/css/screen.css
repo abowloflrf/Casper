@@ -809,12 +809,11 @@ Usage (In Ghost editor):
     overflow-x: auto;
     margin: 1.5em 0 3em;
     padding: 20px;
-    border: color(var(--darkgrey) l(-10%)) 1px solid;
     color: var(--whitegrey);
     font-size: 1.3rem;
     line-height: 1.4em;
     background: #292c35;
-    border-radius: 5px;
+    border-radius: 4px;
 }
 
 .post-full-content pre code {
@@ -857,7 +856,7 @@ Usage (In Ghost editor):
 }
 
 .post-full-content h1 {
-    margin: 0.5em 0 0.2em 0;
+    margin: 0.5em 0 0.5em 0;
     font-size: 4rem;
     font-weight: 400;
 }
@@ -868,9 +867,9 @@ Usage (In Ghost editor):
 }
 
 .post-full-content h2 {
-    margin: 0.5em 0 0.2em 0;
+    margin: 0.5em 0 0.5em 0;
     font-size: 3rem;
-    font-weight: 700;
+    font-weight: 600;
 }
 @media (max-width: 500px) {
     .post-full-content h2 {
@@ -879,9 +878,9 @@ Usage (In Ghost editor):
 }
 
 .post-full-content h3 {
-    margin: 0.5em 0 0.2em 0;
+    margin: 0.5em 0 0.5em 0;
     font-size: 2.2rem;
-    font-weight: 700;
+    font-weight: 600;
 }
 @media (max-width: 500px) {
     .post-full-content h3 {
@@ -890,9 +889,9 @@ Usage (In Ghost editor):
 }
 
 .post-full-content h4 {
-    margin: 0.5em 0 0.2em 0;
+    margin: 0.5em 0 0.5em 0;
     font-size: 2rem;
-    font-weight: 700;
+    font-weight: 600;
 }
 @media (max-width: 500px) {
     .post-full-content h4 {
@@ -925,9 +924,9 @@ Usage (In Ghost editor):
 }
 
 .post-full-content h6 {
-    margin: 0.5em 0 0.2em 0;
+    margin: 0.5em 0 0.5em 0;
     font-size: 2.3rem;
-    font-weight: 700;
+    font-weight: 600;
 }
 @media (max-width: 500px) {
     .post-full-content h6 {
