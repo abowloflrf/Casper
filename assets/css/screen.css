@@ -385,7 +385,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     flex: 1 1 300px;
     display: flex;
     flex-direction: column;
-    min-height: 300px;
+    min-height: 200px;
     overflow: hidden;
     margin: 0 20px 40px;
     background: #fff center center;
@@ -428,7 +428,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
 
 .post-card-tags {
     display: inline-block;
-    margin-bottom: 4px;
+    margin-bottom: 10px;
     padding: 2px 3px;
     color: var(--midgrey);
     font-size: 1.2rem;
